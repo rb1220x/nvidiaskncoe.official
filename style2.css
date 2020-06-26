@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: honeydew;
+    background-image:url("../Nvidia-sknc0e/images/High_resolution_wallpaper_background_ID_77701745394.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+    font-family: sans-serif;
+    }
+
+.main-support{
+    margin-top: 50px;
+    color: rgb(204, 204, 204);
+    text-transform: uppercase;
+    transition: all 2s ease-in-out ;
+}
+.main-support h2{
+    font-size: 23px;
+    line-height: 10px;
+}
+.main-support h3{
+    font-size: 15px;
+    line-height: 10px;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 2s ease-in-out ;
+}
+.form-control{
+    width: 500px;
+    background: transparent;
+    border: none;
+    outline :none;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+input{
+    height: 50px;
+}
+form .submit{
+    background: rgb(76, 233, 44);
+    border-color: transparent;
+    color: rgb(238, 238, 238);
+    font-size: 18px;
+    height: 50px;
+    margin-top: 15px;
+}
+form .submit:hover{
+    background-color:rgb(101, 231, 101) ;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

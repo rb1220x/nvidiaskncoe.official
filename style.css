@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    overflow:hidden;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)), url("../Nvidia-sknc0e/images/503a9f41e35762bf64acb9452be2829d.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 80vh;
+}
+
+.newHeader {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)), url("../Nvidia-sknc0e/images/503a9f41e35762bf64acb9452be2829d.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 75vh;
+}
+.clearfix::after{
+content:",";
+visibility: hidden;
+display: block;
+height: 0px;
+clear: both;
+}
+.row{
+max-width: 1180px;
+margin: 0 auto;
+}
+.logo{
+    height: 40px;
+    width: auto;
+    float: left;;
+}
+.navbar-toggler{
+    float: left;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    border-bottom: 2px solid rgb(129, 194, 9);
+}
+
+.hoverClass:hover {
+    border-bottom: 2px solid rgb(129, 194, 9);
+}
+
+.main-content-header{
+width: 1180px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
+
+h1 {
+    color: white;
+    font-size: 90%; /*20(bydefault)*150/100=42px*/
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-family: "Heebo", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h2 {
+    color: rgb(123, 194, 16);
+    font-size: 210%; /*20(bydefault)*220/100=42px*/
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0px;
+
+}
+.colorchange{
+    animation: NVIDIA-SKNCOE 1s infinite;
+}
+
+@keyframes NVIDIA-SKNCOE{
+    0%{color: rgb(113, 182, 22);}
+    50%{color:rgb(113, 173, 34);}
+    100%{color: rgb(136, 255, 0);}
+}
+.mobile-icon{display: none;}
+
+/*///footer styles////*/
+footer{
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.left-footer h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(114, 194, 11);
+    color:white;
+    font-size: 90%; /*20(bydefault)*120/100=42px*/
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-content-footer h1  {
+    float:top;
+    padding-top: 15px;
+    padding-left: 68%;
+    color: black;
+    font-size: 90%; /*20(bydefault)*110/100=42px*/
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-family: "Heebo", "Helvetica Neue", Helvetica, sans-serif;
+}
+.main-content-footer p{
+    float: top;
+    padding-left: 68%;
+    color: black;
+    font-size: 80%; /*20(bydefault)*110/100=42px*/
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.icon-nav{
+    float: right; 
+    color: black;
+    padding-bottom: 10px;
+    padding-right: 14%;
+    padding-top: 5px;
+
+}
+.icon-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left:11px;
+    padding-right: 11px;
+}
+.icon-nav a{
+    color:black;
+    background-color: white;
+    text-decoration:none;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.left-footer h1:hover{
+    color: rgb(38, 58, 8);
+}
+
+/*////responsive queries/////*/
+
+@media only screen and (max-width: 1180px){
+    .main-content-header{
+        width: 100%;
+        padding: 0.2%;
+    }
+}
+@media only screen and (max-width: 990px){
+    .main-content-header h1{font-size: 200%;}
+}
+@media only screen and (max-width: 768px)
+{
+    .main-content-header h1{font-size: 180%;}
+
+    .main-nav{display: none;}
+
+    .mobile-icon{
+        display: inline-block; 
+        color: white; 
+        float: right;
+        margin-top: 30px;
+        margin-right: 40px;
+       }
+
+   .main-nav li{
+        float: left; 
+        display: block;
+        margin-top: 10px; }
+
+} 
+@media only screen and (max-width: 1180px){
+    .main-content-footer{
+        width: 100%;
+        padding: 0.2%;
+    }
+}
+@media only screen and (max-width: 990px){
+    .main-content-footer h1{font-size: 100%;}
+}
+@media only screen and (max-width: 768px)
+{
+    .main-content-footer h1{font-size: 90%;}
+
+    .icon-nav{display: none;}
+
+    .icon-nav{
+        float: left; }
+
+    .icon-nav li{
+            display: block;
+            margin-top: 10px; }
+
+} 
+
+
